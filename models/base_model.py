@@ -6,7 +6,6 @@ from datetime import datetime
 import models
 import copy
 
-
 class BaseModel:
     """Represents a BaseModel
     Attributes:
