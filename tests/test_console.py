@@ -22,7 +22,7 @@ class TestHBNBCommand_help(unittest.TestCase):
     """Unittests for testing help interpreter."""
 
     def test_help(self):
-        hlp = "ctrl+z"
+        hlp = "Quit command to exit the program"
         with patch("sys.stdout", new=StringIO()) as output:
             self.assertFalse(HBNBCommand().onecmd("help quit"))
             self.assertEqual(hlp, output.getvalue().strip())
