@@ -30,7 +30,7 @@ class HBNBCommand(cmd.Cmd):
         return True
 
     def do_quit(self, args):
-        """ctrl+z"""
+        """Quit command to exit the program"""
         quit()
         return True
 
